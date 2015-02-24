@@ -5,6 +5,8 @@
         Dim myDinosaur As New Dinosaur
         myDinosaur.name = "T-Rex"
         Console.WriteLine(myDinosaur.name)
+        Console.ReadKey()
+
     End Sub
 
 
