@@ -2,7 +2,18 @@
 
     Sub Main()
         Console.WriteLine("Dino project")
-
+        Dim myDinosaur As New Dinosaur
+        myDinosaur.name = "T-Rex"
+        Console.WriteLine(myDinosaur.name)
     End Sub
+
+
+
+    Class Dinosaur
+
+        Public name As String
+
+
+    End Class
 
 End Module
